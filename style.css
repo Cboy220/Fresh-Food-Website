@@ -542,3 +542,10 @@ section .main_btn:hover i{
     opacity: 1;
     transform: translateY(-8px);
 }
+
+.review .review_box .review_card .review_text p{
+    text-align: center;
+    line-height: 22px;
+    transition: 0.3s;
+}
+
