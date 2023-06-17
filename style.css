@@ -109,8 +109,35 @@ section .main .main_image img{
 }
 
 section p{
-    width: 50%;
+    width: 650px;
     text-align: justify;
     position: relative;
-    left: 130px;
+    left: 123px;
+    bottom: 120px;
+    line-height: 22px;
+}
+
+section .main_btn{
+    background: #fac031;
+    position: relative;
+    left: 123px;
+    bottom: 30px;
+    width: 150px;
+    cursor: pointer;
+    padding: 12px 25px;
+}
+
+section .main_btn a{
+    color: #fff;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+section .main_btn i{
+    color: white;
+    transition: 0.3s;
+}
+
+section .main_btn:hover i{
+    transform: translate(7px);
 }
