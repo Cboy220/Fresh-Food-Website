@@ -779,6 +779,13 @@ footer .footer_main .footer_tag p{
 footer .footer_main .footer_tag i{
     margin: 0 5px;
     cursor: pointer;
+    transition: 0.2s;
 }
+
+footer .footer_main .footer_tag i:hover{
+    color: #fac031;
+}
+
+
 
 
