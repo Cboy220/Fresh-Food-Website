@@ -439,3 +439,106 @@ section .main_btn:hover i{
 
     opacity: 1;
 }
+
+/*Review*/
+
+.review{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+
+.review h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review h1 span{
+    margin-left: 15px;
+    color: #fac031;
+    font-family: mv boli;
+}
+
+.review h1 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fac031;
+    position: relative;
+    bottom: 15px;
+    display: block;
+}
+
+.review .review_box{
+    width: 95%;
+    margin: 70px 0;
+    display: flex;
+}
+
+.review .review_box .review_card{
+    width: 350px;
+    height: 485px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin: 0 8px;
+}
+
+.review .review_box .review_card .review_profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: 0.3s;
+}
+
+.review .review_box .review_card:hover .review_profile{
+    transform: translateY(-60px);
+}
+
+.review .review_box .review_card .review_profile img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 5px solid #cccccc;
+}
+
+.review .review_box .review_card .review_text{
+    text-align: center;
+
+}
+
+.review .review_box .review_card .review_text .name{
+    color: black;
+    transition: 0.3s;
+}
+
+.review .review_box .review_card:hover .review_text .name{
+    transform: translateY(-50px)
+}
+
+.review .review_box .review_card .review_text .review_icon{
+    color: #fac031;
+    transition: 0.3s;
+}
+
+.review .review_box .review_card:hover .review_text .review_icon{
+    transform: translateY(-30px)
+}
+
+.review .review_box .review_card .review_text .review_social i{
+    margin: 5px 1px;
+    font-size: 15px;
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.review .review_box .review_card:hover .review_text .review_social i{
+    opacity: 1;
+    transform: translateY(-8px);
+}
