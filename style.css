@@ -23,4 +23,94 @@ section nav{
     right: 0;
     background: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 100;
+}
+
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+
+section nav ul{
+    list-style: none;
+}
+
+section nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+section nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.1s;
+}
+
+section nav ul li a::after{
+    content: '';
+    width: 0%;
+    display: block;
+    height: 2px;
+    background: #fac031;
+    transition: 0.2s;
+}
+
+section nav ul li a:hover::after{
+    width: 100%;
+}
+
+section nav ul li a:hover{
+    color: #fac031;
+}
+
+section nav .icon i{
+    font-size: 18px;
+    color: #000;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+
+}
+
+section nav .icon i:hover{
+    color: #fac031;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 130px;
+}
+
+section .main .men_text h1{
+    font-size: 60px;
+    position: relative;
+    top: -90px;
+    left: 20px;
+}
+
+section .main .men_text h1 span{
+    margin-left: 15px;
+    color: #fac031;
+    font-family: mv boli;
+    line-height: 22px;
+    font-size: 70px;
+}
+
+section .main .main_image img{
+    width: 700px;
+    position: relative;
+    left: 70px;
+}
+
+section p{
+    width: 50%;
+    text-align: justify;
+    position: relative;
+    left: 130px;
 }
