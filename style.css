@@ -201,7 +201,7 @@ section .main_btn:hover i{
 
 .menu{
     width: 100%;
-    padding: 70px 0;
+    padding: 70px 150px;
 }
 
 .menu h1{
@@ -341,7 +341,7 @@ section .main_btn:hover i{
 
 .gallery{
     width: 100%;
-    padding: 70px 0;
+    padding: 70px 150px;
 }
 
 .gallery h1{
@@ -445,7 +445,7 @@ section .main_btn:hover i{
 .review{
     width: 100%;
     height: 100vh;
-    padding: 70px 0;
+    padding: 70px 150px;
 }
 
 .review h1{
